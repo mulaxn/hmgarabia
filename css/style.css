@@ -13,7 +13,7 @@
   --navy-lighter: #1c3a63;
   --black: #0a0a0a;
   --white: #ffffff;
-  --off-white: #f7f6f3;
+  --off-white: var(--gold-pale);
   --gray-100: #f2f2f2;
   --gray-300: #d9d9d9;
   --text-muted: #6b7280;
@@ -41,7 +41,7 @@ html {
 body {
   font-family: var(--font-en);
   color: var(--text-body);
-  background: var(--white);
+  background: var(--gold-pale);
   line-height: 1.65;
   overflow-x: hidden;
 }
@@ -427,7 +427,7 @@ h3 { font-size: 1.3rem; }
   position: absolute;
   bottom: 22px;
   inset-inline-start: 22px;
-  background: var(--white);
+  background: var(--gold-pale);
   border-radius: 8px;
   padding: 16px 22px;
   box-shadow: var(--shadow-md);
@@ -469,7 +469,7 @@ h3 { font-size: 1.3rem; }
 }
 
 .service-card {
-  background: var(--white);
+  background: var(--gold-pale);
   border: 1px solid var(--gray-100);
   border-radius: var(--radius);
   padding: 36px 30px;
@@ -628,7 +628,7 @@ h3 { font-size: 1.3rem; }
 }
 
 .mv-card {
-  background: var(--white);
+  background: var(--gold-pale);
   border-top: 3px solid var(--gold);
   border-radius: var(--radius);
   padding: 40px;
