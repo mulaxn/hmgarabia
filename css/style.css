@@ -190,7 +190,7 @@ h3 { font-size: 1.3rem; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 84px;
+  height: 96px;
 }
 
 .logo {
@@ -199,25 +199,14 @@ h3 { font-size: 1.3rem; }
   gap: 10px;
 }
 
-.logo-mark {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 46px;
-  height: 46px;
-  border-radius: 8px;
-  background: linear-gradient(135deg, var(--gold-light), var(--gold-dark));
-  color: var(--black);
-  font-weight: 800;
-  font-size: 1rem;
-  letter-spacing: 0.5px;
+.logo-img {
+  height: 56px;
+  width: auto;
+  display: block;
 }
 
-.logo-text {
-  color: var(--white);
-  font-weight: 700;
-  font-size: 1.15rem;
-  letter-spacing: 2px;
+.footer-brand .logo-img {
+  height: 64px;
 }
 
 .nav-links {
@@ -1058,9 +1047,11 @@ h3 { font-size: 1.3rem; }
 
 @media (max-width: 768px) {
   section { padding: 60px 0; }
+  .logo-img { height: 42px; }
+  .navbar-inner { height: 76px; }
   .nav-links {
     position: fixed;
-    top: 84px;
+    top: 76px;
     inset-inline-start: 0;
     width: 100%;
     background: var(--navy);
