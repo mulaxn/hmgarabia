@@ -18,9 +18,9 @@ const TRANSLATIONS = {
     },
     home: {
       hero: {
-        eyebrow: "HMG ARABIA — RIYADH, SAUDI ARABIA",
+        eyebrow: "HOMAGE MERIDIAN GULF — RIYADH, SAUDI ARABIA",
         title: "Powering Your Business Forward",
-        subtitle: "HMG Arabia delivers trusted manpower, HR, construction, facility management, and logistics solutions that keep businesses across the Kingdom moving forward.",
+        subtitle: "Homage Meridian Gulf delivers trusted manpower, HR, construction, facility management, and logistics solutions that keep businesses across the Kingdom moving forward.",
         cta1: "Explore Our Services",
         cta2: "Get in Touch"
       },
@@ -163,9 +163,9 @@ const TRANSLATIONS = {
     },
     home: {
       hero: {
-        eyebrow: "إتش إم جي أرابيا — الرياض، المملكة العربية السعودية",
+        eyebrow: "هومج ميريديان غلف — الرياض، المملكة العربية السعودية",
         title: "ندفع أعمالكم إلى الأمام",
-        subtitle: "تقدم إتش إم جي أرابيا حلولاً موثوقة في توفير القوى العاملة والموارد البشرية والمقاولات وإدارة المرافق والخدمات اللوجستية لدعم استمرارية أعمال الشركات في جميع أنحاء المملكة.",
+        subtitle: "تقدم هومج ميريديان غلف حلولاً موثوقة في توفير القوى العاملة والموارد البشرية والمقاولات وإدارة المرافق والخدمات اللوجستية لدعم استمرارية أعمال الشركات في جميع أنحاء المملكة.",
         cta1: "استكشف خدماتنا",
         cta2: "تواصل معنا"
       },

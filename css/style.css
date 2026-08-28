@@ -177,8 +177,8 @@ h3 { font-size: 1.3rem; }
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: var(--navy);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: var(--white);
+  border-bottom: 1px solid var(--gray-300);
   transition: var(--transition);
 }
 
@@ -190,7 +190,7 @@ h3 { font-size: 1.3rem; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 96px;
+  height: 118px;
 }
 
 .logo {
@@ -200,13 +200,13 @@ h3 { font-size: 1.3rem; }
 }
 
 .logo-img {
-  height: 56px;
+  height: 82px;
   width: auto;
   display: block;
 }
 
 .footer-brand .logo-img {
-  height: 64px;
+  height: 88px;
 }
 
 .nav-links {
@@ -216,7 +216,7 @@ h3 { font-size: 1.3rem; }
 }
 
 .nav-links a {
-  color: rgba(255, 255, 255, 0.85);
+  color: var(--navy);
   font-weight: 500;
   font-size: 0.96rem;
   position: relative;
@@ -237,7 +237,7 @@ h3 { font-size: 1.3rem; }
 
 .nav-links a:hover,
 .nav-links a.active {
-  color: var(--gold-light);
+  color: var(--gold-dark);
 }
 
 .nav-links a:hover::after,
@@ -256,9 +256,9 @@ h3 { font-size: 1.3rem; }
   align-items: center;
   gap: 6px;
   padding: 7px 12px;
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  border: 1px solid var(--gray-300);
   border-radius: 30px;
-  color: rgba(255, 255, 255, 0.85);
+  color: var(--navy);
   font-size: 0.82rem;
   font-weight: 600;
 }
@@ -269,17 +269,17 @@ h3 { font-size: 1.3rem; }
 
 .lang-option {
   padding: 2px 4px;
-  opacity: 0.55;
+  opacity: 0.5;
   transition: var(--transition);
 }
 
 .lang-option.active {
   opacity: 1;
-  color: var(--gold-light);
+  color: var(--gold-dark);
 }
 
 .lang-sep {
-  opacity: 0.4;
+  opacity: 0.35;
 }
 
 .nav-cta {
@@ -299,7 +299,7 @@ h3 { font-size: 1.3rem; }
   display: block;
   height: 2px;
   width: 100%;
-  background: var(--white);
+  background: var(--navy);
   transition: var(--transition);
 }
 
@@ -959,9 +959,10 @@ h3 { font-size: 1.3rem; }
 
 /* ===== Footer ===== */
 .site-footer {
-  background: var(--black);
-  color: rgba(255, 255, 255, 0.7);
+  background: var(--white);
+  color: var(--text-muted);
   padding: 70px 0 0;
+  border-top: 1px solid var(--gray-300);
 }
 
 .footer-grid {
@@ -978,11 +979,11 @@ h3 { font-size: 1.3rem; }
 .footer-brand p {
   font-size: 0.9rem;
   line-height: 1.7;
-  color: rgba(255, 255, 255, 0.55);
+  color: var(--text-muted);
 }
 
 .footer-col h4 {
-  color: var(--white);
+  color: var(--navy);
   font-size: 1rem;
   margin-bottom: 22px;
 }
@@ -993,26 +994,26 @@ h3 { font-size: 1.3rem; }
 }
 
 .footer-col ul li a {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--text-muted);
   transition: var(--transition);
 }
 
 .footer-col ul li a:hover {
-  color: var(--gold-light);
+  color: var(--gold-dark);
 }
 
 .footer-contact li {
   display: flex;
   gap: 10px;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--text-muted);
 }
 
 .footer-bottom {
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid var(--gray-100);
   padding: 22px 0;
   text-align: center;
   font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.45);
+  color: var(--text-muted);
 }
 
 /* ===========================
@@ -1047,14 +1048,14 @@ h3 { font-size: 1.3rem; }
 
 @media (max-width: 768px) {
   section { padding: 60px 0; }
-  .logo-img { height: 42px; }
-  .navbar-inner { height: 76px; }
+  .logo-img { height: 58px; }
+  .navbar-inner { height: 92px; }
   .nav-links {
     position: fixed;
-    top: 76px;
+    top: 92px;
     inset-inline-start: 0;
     width: 100%;
-    background: var(--navy);
+    background: var(--white);
     flex-direction: column;
     align-items: flex-start;
     gap: 0;
@@ -1062,7 +1063,8 @@ h3 { font-size: 1.3rem; }
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-top: 1px solid var(--gray-300);
+    box-shadow: var(--shadow-md);
   }
   .nav-links.open {
     max-height: 400px;
@@ -1070,6 +1072,7 @@ h3 { font-size: 1.3rem; }
   .nav-links a {
     width: 100%;
     padding: 16px 24px;
+    border-bottom: 1px solid var(--gray-100);
   }
   .nav-links a::after {
     display: none;
